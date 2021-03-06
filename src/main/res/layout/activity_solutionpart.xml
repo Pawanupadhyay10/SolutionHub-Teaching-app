@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:contentDescription="@string/todo"
+    tools:context=".SolutionpartActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/SolutionRecyclerView"
+        android:layout_width="391dp"
+        android:layout_height="557dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:background="#FCFAFA"
+        android:padding="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/solutionpicuploadbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageButton
+        android:id="@+id/solutionpicuploadbtn"
+        android:layout_width="57dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/typesendbtn"
+        android:backgroundTint="#FFFFFF"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/Givesolution"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_baseline_add_circle_24" />
+
+    <EditText
+        android:id="@+id/Givesolution"
+        android:layout_width="271dp"
+        android:layout_height="45dp"
+        android:autofillHints="@string/hello_first_fragment"
+        android:background="@drawable/buttonshapes"
+        android:backgroundTint="#FFFFFF"
+        android:hint="@string/give_solution"
+        android:inputType="textMultiLine|textCapSentences"
+        android:paddingHorizontal="10dp"
+        android:textColorHint="@color/colorPrimary"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/solutiontextSendbtn"
+        app:layout_constraintStart_toEndOf="@+id/solutionpicuploadbtn" />
+
+    <ImageButton
+        android:id="@+id/solutiontextSendbtn"
+        android:layout_width="61dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/typesendbtn"
+        android:backgroundTint="#FFFFFF"
+        android:contentDescription="@string/todo"
+        android:tint="#0CDE16"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Givesolution"
+        app:srcCompat="@android:drawable/ic_menu_send" />
+
+    <ImageView
+        android:id="@+id/solutionpostimages"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="41dp"
+        android:layout_marginEnd="41dp"
+        android:contentDescription="@string/todo"
+        android:visibility="gone"
+        app:layout_constraintEnd_toStartOf="@+id/SolutionRecyclerView"
+        app:layout_constraintStart_toEndOf="@+id/SolutionRecyclerView"
+        app:layout_constraintTop_toTopOf="@+id/SolutionRecyclerView"
+        app:srcCompat="@drawable/big_add" />
+
+    <TextView
+        android:id="@+id/Showtimmer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="190dp"
+        android:text="@string/_7"
+        android:textColor="#0E0E0E"
+        android:textSize="100sp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="@+id/SolutionRecyclerView"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/solutionpostimages" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

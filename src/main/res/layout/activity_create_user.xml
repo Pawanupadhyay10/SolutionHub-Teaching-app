@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/createuserprogressbar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/liberylowopacityunsplash"
+    tools:context=".CreateUserActivity">
+
+    <EditText
+        android:id="@+id/Createusername"
+        android:layout_width="358dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="6dp"
+        android:autofillHints=""
+        android:background="@drawable/buttonshapes"
+        android:ems="10"
+        android:maxLength="9"
+        android:hint="@string/create_username_it_must_be_9"
+        android:inputType="textEmailAddress"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/Createloginemail"
+        android:layout_width="358dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="6dp"
+        android:autofillHints=""
+        android:background="@drawable/buttonshapes"
+        android:ems="10"
+        android:hint="@string/enter_email"
+        android:inputType="textEmailAddress"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Createusername" />
+
+    <EditText
+        android:id="@+id/CreateloginPassword"
+        android:layout_width="358dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="6dp"
+        android:autofillHints=""
+        android:background="@drawable/buttonshapes"
+        android:ems="10"
+        android:hint="@string/enter_passward_it_must_be_6"
+        android:inputType="textPassword"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Createloginemail" />
+
+    <Button
+        android:id="@+id/clickedusersinupdone"
+        android:layout_width="110dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="145dp"
+        android:background="@drawable/buttonscorners"
+        android:onClick="Clicked"
+        android:text="@string/singup_done"
+        android:textColor="@color/design_default_color_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CreateloginPassword" />
+
+    <Button
+        android:id="@+id/cancelclicked"
+        android:layout_width="110dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="145dp"
+        android:background="@drawable/buttonblack"
+        android:onClick="cancelclicked"
+        android:text="@string/cancel"
+        android:textColor="@color/design_default_color_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/clickedusersinupdone" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

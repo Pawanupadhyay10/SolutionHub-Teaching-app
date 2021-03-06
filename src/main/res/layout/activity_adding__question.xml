@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blackcoloursunsplash"
+    tools:context=".Adding_Question">
+
+    <ToggleButton
+        android:id="@+id/addGatebtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginTop="72dp"
+        android:background="@drawable/solidcolour"
+        android:button="@drawable/solidcolour"
+        android:checked="true"
+        android:onClick="category_gate_add"
+        android:text="@string/gate"
+        android:textColor="#F5EEEE"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#F4ECEC"
+        android:textOff="@string/gate_any_subject"
+        android:textOn="@string/gate_any_subject"
+        app:layout_constraintEnd_toStartOf="@+id/addApptitudebtn"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ToggleButton
+        android:id="@+id/addApptitudebtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/solidcolour"
+        android:checked="false"
+        android:onClick="category_apptitude_add"
+        android:text="@string/apptitude"
+        android:textColor="#EEEFF2"
+        android:textColorHighlight="#FFFFFF"
+        android:textOff="@string/apptitude"
+        android:textOn="@string/apptitude"
+        app:layout_constraintBottom_toBottomOf="@+id/addGatebtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/addGatebtn"
+        app:layout_constraintTop_toTopOf="@+id/addGatebtn"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/addusername"
+        android:layout_width="341dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="44dp"
+        android:autofillHints="@string/enter_subject"
+        android:background="@drawable/buttonshapes"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="@string/enter_any_subject"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/Typequestion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addGatebtn" />
+
+    <EditText
+        android:id="@+id/Typequestion"
+        android:layout_width="342dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="32dp"
+        android:autofillHints="Type Your Question/Description"
+        android:background="@drawable/buttonshapes"
+        android:gravity="center_horizontal"
+        android:hint="@string/enter_topic_name_description"
+        android:imeOptions="actionDone"
+        android:inputType="textMultiLine|textCapSentences"
+        android:lines="3"
+        android:maxLines="3"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addusername" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="162dp"
+        android:text="@string/add_image_below"
+        android:textColor="#FFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/Typequestion"
+        app:layout_constraintStart_toStartOf="@+id/Typequestion"
+        app:layout_constraintTop_toBottomOf="@+id/Typequestion" />
+
+    <ImageView
+        android:id="@+id/postImage"
+        android:layout_width="339dp"
+        android:layout_height="265dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="17dp"
+        android:background="#FFFFFF"
+        android:contentDescription="@string/post_image"
+        android:src="@drawable/bgook"
+        app:layout_constraintEnd_toEndOf="@+id/send_btn"
+        app:layout_constraintStart_toStartOf="@+id/send_btn"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/send_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="162dp"
+        android:background="@drawable/buttonscorners"
+        android:text="@string/post"
+        android:textColor="#F8F5F5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/postImage" />
+
+    <ImageButton
+        android:id="@+id/post_image_btn"
+        android:layout_width="46dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="177dp"
+        android:layout_marginEnd="177dp"
+        android:backgroundTint="#7A4CEB"
+        android:contentDescription="@string/post_image"
+        android:onClick="add_question_image"
+        app:layout_constraintBottom_toBottomOf="@+id/postImage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.6"
+        app:srcCompat="@drawable/finalplusiconcamera" />
+
+    <TextView
+        android:id="@+id/postingtimmer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/_7"
+        android:textColor="#060606"
+        android:textColorHint="#0A0A0A"
+        android:textSize="100sp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@+id/postImage"
+        app:layout_constraintStart_toEndOf="@+id/postImage"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-9719530186912484/8022140922"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/send_btn">
+    </com.google.android.gms.ads.AdView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

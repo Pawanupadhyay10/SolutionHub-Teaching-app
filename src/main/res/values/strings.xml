@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Solution#Hub</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="gate">GATE</string>
+    <string name="apptitude">APPTITUDE</string>
+    <string name="Username">username</string>
+    <string name="type_your_question">Type Your Question</string>
+    <string name="or">OR</string>
+    <string name="post_image">Post_Image</string>
+    <string name="send">SEND</string>
+    <string name="popular">POPULAR</string>
+    <string name="_100">100</string>
+    <string name="feched_question">Feched_Question</string>
+    <string name="_07_10_2020">07–10–2020</string>
+    <string name="answerquestion">AnswerQuestion</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="or_create_account">OR CREATE ACCOUNT</string>
+    <string name="login">LOGIN</string>
+    <string name="createuser">CREATE USER</string>
+    <string name="enter_passward">Enter Passward</string>
+    <string name="singup_done">SINGUP DONE</string>
+    <string name="cancel">Cancel</string>
+    <string name="create_username">Create Username</string>
+    <string name="give_solution">Give Solution</string>
+    <string name="todo">TODO</string>
+    <string name="panni">Panni</string>
+    <string name="_23_july_2020">23-july-2020</string>
+    <string name="data_feched_from_firestore">Data feched from firestore</string>
+    <string name="enter_subject">Enter Subject</string>
+    <string name="_7">7</string>
+    <string name="done__">DONE</string>
+    <string name="add_image_below">ADD IMAGE BELOW</string>
+    <string name="search">Search</string>
+    <string name="logout___">Logout</string>
+    <string name="search_by_subject_casesensitive">Search By Subject(CaseSensitive)</string>
+    <string name="gate_any_subject">GATE / ANY SUBJECT</string>
+    <string name="enter_any_subject">Enter Any Subject</string>
+    <string name="type_your_question_description">Type Your Question / Description</string>
+    <string name="post">POST</string>
+    <string name="enter_topic_name_description">Enter Topic Name/Description</string>
+    <string name="forget_passward">Forget Passward</string>
+    <string name="current_password">Current Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="change_password">Change Password</string>
+    <string name="_2">2</string>
+    <string name="create_username_it_must_be_9"><![CDATA[Create Username(It must be <=9)]]></string>
+    <string name="enter_passward_it_must_be_6"><![CDATA[Enter Passward (It must be >=6)]]></string>
+    <string name="channelname">ChannelName</string>
+    <string name="channel_description">Channel_Description</string>
+</resources>

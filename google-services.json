@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "51934240950",
+    "firebase_url": "https://solutionhub-73901.firebaseio.com",
+    "project_id": "solutionhub-73901",
+    "storage_bucket": "solutionhub-73901.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:51934240950:android:1d3a25bd9be487647a0617",
+        "android_client_info": {
+          "package_name": "com.bawpawan.dev.yourssolution"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "51934240950-ab8v8ma1cng4d1g26vq8c54fhp5uslrr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-buT5Wy9a8arCx7q9bkB6bXiagSD9K-U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "51934240950-ab8v8ma1cng4d1g26vq8c54fhp5uslrr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

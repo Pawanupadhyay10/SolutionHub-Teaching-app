@@ -1,0 +1,25 @@
+package model
+
+const val GATE = "Gate"
+const val APPTITUDE = "Aptitude"
+const val POPULAR = "popular"
+const val QUESTION_REF = "Question"
+
+//hash map constants
+const val CATEGORY_SELECT = "Category"
+const val USERNAME = "username"
+const val QUESTIONTXT = "questiontxt"
+const val IMAGEURL = "imageurl"
+const val TIMESTAMP = "timestamp"
+const val LIKES = "likes"
+const val IMAGEURI = "imageuri"
+const val SOLUTION = "Solution"
+const val TXTSOLUTION = "TexTSoluton"
+const val IMAGESLIST = "imageslist"
+const val USERS = "Users"
+const val DOCUMENT_ID_KEY = "docid"
+const val NUM_COMMENTS = "NO_comments"
+const val COMMENT_REF = "commentref"
+const val COMMENT_TXT = "commenttxt"
+const val SOLUTIONIMAGES = "Imageurichat"
+const val SUBJECT = "Subject"

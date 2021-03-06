@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bawpawan.dev.yourssolution">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.bawpawan.dev.yourssolution.SplashActivity" />
+        <activity android:name="com.bawpawan.dev.yourssolution.CreateUserActivity" />
+        <activity android:name="com.bawpawan.dev.yourssolution.MainActivity" />
+        <activity android:name="com.bawpawan.dev.yourssolution.SolutionpartActivity" />
+        <activity android:name="com.bawpawan.dev.yourssolution.Adding_Question" />
+        <activity
+            android:name="com.bawpawan.dev.yourssolution.LoginActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-9719530186912484~2362727934" />
+    </application>
+
+</manifest>
