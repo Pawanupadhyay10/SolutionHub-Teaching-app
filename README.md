@@ -1,7 +1,7 @@
 # SolutionHub-Teaching-app
 #kotlin+firestore
 #teaching app
-<img src="https://user-images.githubusercontent.com/52281814/133035676-19fbc564-f6f0-4ac1-b3ad-ba7d4de3d860.png" >
+<img src="https://user-images.githubusercontent.com/52281814/133035676-19fbc564-f6f0-4ac1-b3ad-ba7d4de3d860.png" width="300" height="500" >
 
 
 Beauty of the Solution#Hub app is every student is teacher here and
