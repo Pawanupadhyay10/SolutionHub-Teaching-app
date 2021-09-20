@@ -28,10 +28,6 @@ I got more experience in kotlin and firebase-firestore by building this applicat
 ## What's next for Solution#Hub🎉
 The current point system that I have is dynamic but I would love to introduce vedio solutions and scaning the question option into the application to make the whole experience even more rewarding.
 
-## Try it out here
-You can download It from google play store</br>
-Download it here - [Solution#Hub](https://play.google.com/store/apps/details?id=com.bawpawan.dev.yourssolution)
-
 ## Project Gallery📷
 <div class="row">
   <div class="col-4">
@@ -49,6 +45,10 @@ Download it here - [Solution#Hub](https://play.google.com/store/apps/details?id=
 <img src="https://user-images.githubusercontent.com/52281814/133036586-6745bd75-c9bd-4e47-b9da-e23afa6962a2.png" width="150" height="300" >
     </p>
 </div>
+
+## Try it out here
+You can download It from google play store</br>
+Download it here - [Solution#Hub](https://play.google.com/store/apps/details?id=com.bawpawan.dev.yourssolution)
 
 ## Creator
 This Project was built by - 
