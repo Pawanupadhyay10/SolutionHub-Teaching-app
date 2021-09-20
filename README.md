@@ -9,7 +9,7 @@
 
 ## What it does🚀
 Solution#Hub is a social solution sharing app for the doubts of anybody in any area they are facing trouble.
-First is opens with authentication screen using your email id and passward then , one should login if account is already creatyed otherwise ,first create account via clicking the create account button. Then a app logo splash screen appres for few seconds and you enters in the zone of lots of doubts of the peoples, Now search accound the subject which you want to solve using searchbar and give your solution to someones doubts. Don't forget to ask for feedback i.e star ,tyes the app has feature ,the ,more stars you have more up will be the your posted question andanswer as well.
+First is opens with authentication screen using your email id and passward then , one should login if account is already created otherwise ,first create account via clicking the create account button. Then a app logo splash screen appres for few seconds and you enters in the zone of lots of doubts of the peoples, Now search accound the subject which you want to solve using searchbar and give your solution to someones doubts. Don't forget to ask for feedback i.e star ,tyes the app has feature ,the ,more stars you have more up will be the your posted question andanswer as well.
 And if you don't have any solution ,No worries click the toggale button and post your question and wait who will answer it first.
 Yes, app also have the special features for questions of apptitude ,all apptitude doubts will apper under one 
 tab,which makes it more useful as, mostlu students find mathematics to hard as compare to other subjects. and feel free to logout if don't want yourself to be logged in.
