@@ -1,4 +1,5 @@
-# SolutionHub-Teaching-app
+# Solution#Hub-Teaching-app
+<img src="https://user-images.githubusercontent.com/52281814/134026294-986ead43-b9e3-48c7-aa73-788f74b81e6a.png" width="270" height="270"  hspace="300">
 <h2>Solution#Hub-: Social app for helping students to solve their doubts</h2>
 <div class="row">
   <div class="col-4">
