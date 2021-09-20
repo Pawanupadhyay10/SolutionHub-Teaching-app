@@ -5,22 +5,25 @@
 <h2>Solution#Hub-: Social app for helping students to solve their doubts</h2>
 
 ## Inspiration🌠
-**Academic success is important because working people will need higher levels of education to tackle the technologically demanding occupations of the future.** ... Mostly every student is engaged in improving their day today's study .Really **sometimes getting an exact or amazing apporoch solution of question is not easy,To resolve the dilemma ,I came acroos the idea of solution sharing platform socially** and I builed the **Solution#Hub**.
+**Academic success is important because working people will need higher levels of education to tackle the technologically demanding occupations of the future.** ... Mostly these days every student is engaged in improving their day today's study .Really **sometimes getting an exact or amazing apporoch of a question is not that easy,to solve this dilemma ,I came across the idea of solution sharing platform , socially** and I builed the **Solution#Hub**.
 
 ## What it does🚀
-......
-
+Solution#Hub is a social solution sharing app for the doubts of anybody in any area they are facing trouble.
+First is opens with authentication screen using your email id and passward then , one should login if account is already creatyed otherwise ,first create account via clicking the create account button. Then a app logo splash screen appres for few seconds and you enters in the zone of lots of doubts of the peoples, Now search accound the subject which you want to solve using searchbar and give your solution to someones doubts. Don't forget to ask for feedback i.e star ,tyes the app has feature ,the ,more stars you have more up will be the your posted question andanswer as well.
+And if you don't have any solution ,No worries click the toggale button and post your question and wait who will answer it first.
+Yes, app also have the special features for questions of apptitude ,all apptitude doubts will apper under one 
+tab,which makes it more useful as, mostlu students find mathematics to hard as compare to other subjects. and feel free to logout if don't want yourself to be logged in.
 ## How I built it🔨
 ![image](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white) ![image](https://img.shields.io/badge/kotlin-0175C2?style=for-the-badge&logo=kotlin&logoColor=white) ![image](https://img.shields.io/badge/Android-Studio-02569B?style=for-the-badge&logo=Android-Studio&logoColor=white) ![image](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![image](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) </br>
 I started off by creating a prototype in **Figma**. The mobile application was built using **Kotlin** and **Android-Stusio** as tool. We made use of **Firebase-Firestore** for authentication and for saving user data.I used **Picasso** libary for string-url to image parsing.
 
 ## Challenges I ran into🔴
-I ran into some problems with On each item click in Recycler View as to provide different solutions to every question posted on the app.But yes besides it firebase firestore was very new to me, i was challenge task for me to connect my Ui to firestore ,Moreover how to Load images using Picasso Libary from image url. 
+I ran into some problems with On each item click in Recycler View as to provide different solutions to every question posted on the app.But yes besides it firebase firestore was very new to me, i was challenge task for me to connect my Ui to firestore ,Moreover how to Load images using Picasso Libary from image url. And publishing to google play store,creating singed apk bundle was very new to me but finally i did it.
 
 ## Accomplishments that I'm proud of🎖
 I am able to create our proper authentication system along with forget passward option which I never really tried before. I also explored Firestore in a deep way and got to understand how a few things worked a particular way. Making the Nested recycler view work was tough but finally i was able to work properly as to provide different solutions to a single question. 
 ## What I learned📚
-I got more experience in kotlin and firebase-firestore by building this application.  Got to learn about different authentication systems and how everything interacts in the kotlin application during auth. I also wished to integrate vedio solutions in the app and hence got a chance to work around how vedio solution parse using url.
+I got more experience in kotlin and firebase-firestore by building this application.  Got to learn about different authentication systems and how everything interacts in the kotlin application during auth. I also wished to integrate vedio solutions in the app and hence got a chance to work around how vedio solution parse using url.And how to make app available on google playstore. 
 
 ## What's next for Solution#Hub🎉
 The current point system that I have is dynamic but I would love to introduce vedio solutions and scaning the question option into the application to make the whole experience even more rewarding.
@@ -47,7 +50,7 @@ Download it here - [Solution#Hub](https://play.google.com/store/apps/details?id=
     </p>
 </div>
 
-## Creators 
+## Creator
 This Project was built by - 
 [<p align="left"><img alt="mihir7121" src="https://user-images.githubusercontent.com/52281814/134037647-3a61a8ae-b69c-4fa6-aaf0-cfbc657af22a.jpg" width="115"><br><sub>Pawan Upadhyay</sub>](https://github.com/pawanupadhyay10) 
 </p>
