@@ -52,6 +52,6 @@ Download it here - [Solution#Hub](https://play.google.com/store/apps/details?id=
 
 ## Creator
 This Project was built by - 
-[<p align="left"><img alt="mihir7121" src="https://user-images.githubusercontent.com/52281814/134037647-3a61a8ae-b69c-4fa6-aaf0-cfbc657af22a.jpg" width="115"><br><sub>Pawan Upadhyay</sub>](https://github.com/pawanupadhyay10) 
+[<p align="left"><img alt="pawanupadhyay10" src="https://user-images.githubusercontent.com/52281814/134037647-3a61a8ae-b69c-4fa6-aaf0-cfbc657af22a.jpg" width="115"><br><sub>Pawan Upadhyay</sub>](https://github.com/pawanupadhyay10) 
 </p>
 |:---: |:---: |:---: 
